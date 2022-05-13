@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "npx @shopware-pwa/cli init && yarn shopware-pwa --ci --username david.darx --password david.darx && nuxt build",
+    "build": "yarn shopware-pwa --ci --username david.darx --password david.darx && nuxt build",
     "dev": "shopware-pwa dev",
     "generate": "nuxt generate",
     "lint": "prettier --write '*.{js,vue}'",
@@ -13,6 +13,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/pwa": "^3.3.5",
+    "@shopware-pwa/cli": "^1.4.0",
     "@vue/composition-api": "^1.4.9",
     "core-js": "^3.21.1",
     "nuxt": "^2.15.8"
