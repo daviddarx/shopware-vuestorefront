@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "yarn shopware-pwa init --ci --username david.darx --password david.darx && nuxt build",
+    "build": "shopware-pwa build",
     "dev": "shopware-pwa dev",
     "generate": "nuxt generate",
     "lint": "prettier --write '*.{js,vue}'",
