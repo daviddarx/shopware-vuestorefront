@@ -1,9 +1,11 @@
 {
   "sections": {},
   "blocks": {
-    "lead-with-image": "CmsBlockLeadWithImage"
+    "lead-with-image": "CmsBlockLeadWithImage",
+    "netzp-blog6-block": "CmsBlockBlog6"
   },
   "elements": {
-    "lead": "CmsElementLead"
+    "lead": "CmsElementLead",
+    "netzp-blog6": "CmsElementBlog6"
   }
 }
