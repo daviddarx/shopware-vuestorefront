@@ -1,5 +1,9 @@
 {
   "sections": {},
-  "blocks": {},
-  "elements": {}
+  "blocks": {
+    "lead-with-image": "CmsBlockLeadWithImage"
+  },
+  "elements": {
+    "lead": "CmsElementLead"
+  }
 }
