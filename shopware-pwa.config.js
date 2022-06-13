@@ -7,6 +7,8 @@ module.exports = {
   },
   shopwareDomainsAllowList: [
     "http://localhost:3000",
-    "http://localhost:3000/en"
+    "http://localhost:3000/en",
+    "https://sw6bt-vuestorefront.netlify.app",
+    "https://sw6bt-vuestorefront.netlify.app/en"
   ]
 };
