@@ -27,7 +27,7 @@ export default {
   computed: {
   },
   mounted () {
-    console.log("mounted", "element lead");
+    console.log("mounted ", "element lead");
   },
 };
 </script>
